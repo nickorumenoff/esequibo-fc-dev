@@ -1,0 +1,37 @@
+{
+  "name": "Esequibo FC",
+  "short_name": "Esequibo FC",
+  "description": "Plataforma de la partida semanal de Esequibo FC",
+  "start_url": "/esequibo-fc-dev/",
+  "scope": "/esequibo-fc-dev/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#1a7a3a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Partida",
+      "url": "/esequibo-fc-dev/index.html",
+      "description": "Gestión de la partida semanal"
+    },
+    {
+      "name": "Plataforma",
+      "url": "/esequibo-fc-dev/app.html",
+      "description": "Perfil y estadísticas"
+    }
+  ]
+}
